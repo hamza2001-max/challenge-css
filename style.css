@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Anek Latin';
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#music {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#textContainer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: ghostwhite;
+    max-width: 450px;
+    padding: 30px;
+}
+
+.identity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.identity h1 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.identity p {
+    text-align: center;
+    line-height: 23px;
+}
+
+#deal {
+    display: flex;
+    background-color: lavender;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.dealInsides {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dealInsides .text {
+    margin-left: 15px;
+}
+
+.dealInsides #plan {
+    text-transform: capitalize;
+    margin-bottom: 3px
+}
+
+.dealInsides #cost {
+    font-weight: 300;
+    color: dimgray;
+}
+
+#icon {
+    width: 55px;
+    height: 52px;
+}
+
+.dealInsides #changeButton {
+    border: none;
+    font-size: medium;
+    background-color: transparent;
+    color: rgb(43, 43, 212);
+    transition: 0.2s;
+    margin-right: 30px;
+}
+
+#changeButton:hover {
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#payButton {
+    padding: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 212);
+    font-size: medium;
+    transition: 0.2s;
+}
+
+#payButton:hover {
+    letter-spacing: 2px;
+    background-color: rgb(69, 69, 224);
+    ;
+}
+
+#cancelButton {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+#cancelButton:hover {
+    letter-spacing: 2px;
+}
